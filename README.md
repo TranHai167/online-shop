@@ -11,3 +11,8 @@ For front-end package, visit: https://github.com/TranHai167/online-shop-front
 Project structure: 
 
 ![Project structure](/images/pj_structure.png)
+
+Request flow:
+
+![Project structure](/images/request_direction.png)
+
