@@ -20,7 +20,7 @@ public class SecurityConfiguration {
     private AuthenticationProvider authenticationProvider;
 
     @Autowired
-    private JwtFilter jwtAuthFilters;
+    private JwtFilter jwtAuthFilter;
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
