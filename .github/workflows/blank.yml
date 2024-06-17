@@ -1,0 +1,36 @@
+name: Java CI with Maven
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'adopt'  # Bạn có thể chọn 'zulu', 'adopt', v.v.
+          java-version: '11'     # Thay đổi phiên bản JDK nếu cần
+
+      - name: Build with Maven
+        run: mvn clean install
+
+      - name: Run tests with Maven
+        run: mvn test
+
+      - name: Upload Test Results
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: test-results
+          path: target/surefire-reports  # Đường dẫn đến kết quả bài test
