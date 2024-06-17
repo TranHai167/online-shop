@@ -6,7 +6,8 @@ For front-end package, visit: https://github.com/TranHai167/online-shop-front
 * **[JWT](jwt.md)** for preventing CORS, CSRF attack. Which is cookie forgery. 
 * Mail and Otp server for confirmation client's data.
 * Spring security to block unexpected requests.
-* Use Jenkins for automatically build and test process
+* Git action checking code before merging
+* Use Jenkins for automatically build process
 
 Project structure: 
 
