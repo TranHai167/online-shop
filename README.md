@@ -9,11 +9,25 @@ For front-end package, visit: https://github.com/TranHai167/online-shop-front
 * Git action checks code before creating merge request.
 * Use Jenkins for automatically building and pushing to private repo for prod env.
 
-Project structure: 
+### Project structure: 
 
 ![Project structure](/images/pj_structure.png)
 
-Request flow:
+### Request flow from client:
 
 ![Project structure](/images/request_direction.png)
 
+
+### When web application worked as expected ([*see here*](https://github.com/TranHai167/online-shop-front )), let check the code, containerize and push it to docker hub repository.
+
+#### Config workflow as we want.
+![workflow-config](/images/workflow_config.png)
+
+
+#### GitHub workflow success.
+![Workflow](/images/workflow_success.png)
+
+To build Docker image for our web application, we need Dockerfile and specify the path of it in workflow.
+
+#### Push to docker hub.
+![Workflow](/images/container-in-dockerhub.png)
