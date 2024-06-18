@@ -17,8 +17,12 @@ For front-end package, visit: https://github.com/TranHai167/online-shop-front
 
 ![Project structure](/images/request_direction.png)
 
+### Database design:
 
-### When web application worked as expected ([*see here*](https://github.com/TranHai167/online-shop-front )), let check the code, containerize and push it to docker hub repository.
+![Project structure](/images/db_design.png)
+
+
+### When operations in UI web application worked as expected ([*see here*](https://github.com/TranHai167/online-shop-front )), let containerize the code and push it to docker hub repository.
 
 #### Config workflow as we want.
 ![workflow-config](/images/workflow_config.png)
