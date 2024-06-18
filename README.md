@@ -7,7 +7,7 @@ For front-end package, visit: https://github.com/TranHai167/online-shop-front
 * Mail and Otp server to confirm client's data.
 * Spring security, (a built-in dependency of Springboot framework) to block unexpected requests.
 * Git action checks code before creating merge request.
-* Use Jenkins for automatically building and pushing to private repo for prod env.
+* GitHub Actions to automatically build and push code to private repo for prod env.
 
 ### Project structure: 
 
