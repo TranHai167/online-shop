@@ -33,5 +33,5 @@ For front-end package, visit: https://github.com/TranHai167/online-shop-front
 
 To build Docker image for our web application, we need Dockerfile and specify the path of it in workflow.
 
-#### Push to docker hub.
+#### Push to [docker hub](https://hub.docker.com/repository/docker/tranhaioiga/onl-shop-be/general).
 ![Workflow](/images/container-in-dockerhub.png)
